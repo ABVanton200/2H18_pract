@@ -6,7 +6,8 @@
   "author": "Anton Babakhin <anton-098+ya@yandex.ru>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack && node index.js"
+    "start": "node index.js",
+    "build": "webpack"
   },
   "peerDependencies": {
     "styled-components": "^4.0.2"
